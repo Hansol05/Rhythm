@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="sentence" value="The cow jumped over the moon"/>
+  <test name="Test(failed)">
+    <parameter name="sentence" value="The cow jumped over the moon"/>
+    <classes>
+      <class name="com.rhythm.LongestWordNSizeInstnceTest">
+        <methods>
+          <include name="LongestWordInSentenceTestWithParameterFail" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.rhythm.LongestWordNSizeInstnceTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33" started-at="2019-10-19T13:18:47Z" finished-at="2019-10-19T13:18:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33" started-at="2019-10-19T13:18:47Z" finished-at="2019-10-19T13:18:47Z">
+      <class name="com.rhythm.LongestWordNSizeInstnceTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.rhythm.LongestWordNSizeInstnceTest@69d9c55]" name="beforeClass" is-config="true" duration-ms="6" started-at="2019-10-19T06:18:47Z" finished-at="2019-10-19T06:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="LongestWordInSentenceTest()[pri:0, instance:com.rhythm.LongestWordNSizeInstnceTest@69d9c55]" name="LongestWordInSentenceTest" duration-ms="5" started-at="2019-10-19T06:18:47Z" finished-at="2019-10-19T06:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongestWordInSentenceTest -->
+        <test-method status="PASS" signature="LongestWordInSentenceTest1()[pri:0, instance:com.rhythm.LongestWordNSizeInstnceTest@69d9c55]" name="LongestWordInSentenceTest1" duration-ms="1" started-at="2019-10-19T06:18:47Z" finished-at="2019-10-19T06:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongestWordInSentenceTest1 -->
+        <test-method status="PASS" signature="LongestWordInSentenceTestException()[pri:0, instance:com.rhythm.LongestWordNSizeInstnceTest@69d9c55]" name="LongestWordInSentenceTestException" duration-ms="1" started-at="2019-10-19T06:18:47Z" finished-at="2019-10-19T06:18:47Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[String is empty]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: String is empty
+	at com.rhythm.LongestWordNSizeInstnce.LongestWordInSentence(LongestWordNSizeInstnce.java:7)
+	at com.rhythm.LongestWordNSizeInstnceTest.LongestWordInSentenceTestException(LongestWordNSizeInstnceTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongestWordInSentenceTestException -->
+        <test-method status="PASS" signature="LongestWordInSentenceTestWithParameter(java.lang.String)[pri:0, instance:com.rhythm.LongestWordNSizeInstnceTest@69d9c55]" name="LongestWordInSentenceTestWithParameter" duration-ms="1" started-at="2019-10-19T06:18:47Z" finished-at="2019-10-19T06:18:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The cow jumped over the moon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongestWordInSentenceTestWithParameter -->
+        <test-method status="FAIL" signature="LongestWordInSentenceTestWithParameterFail(java.lang.String)[pri:0, instance:com.rhythm.LongestWordNSizeInstnceTest@69d9c55]" name="LongestWordInSentenceTestWithParameterFail" duration-ms="0" started-at="2019-10-19T06:18:47Z" finished-at="2019-10-19T06:18:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[String is empty]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: String is empty
+	at com.rhythm.LongestWordNSizeInstnce.LongestWordInSentence(LongestWordNSizeInstnce.java:7)
+	at com.rhythm.LongestWordNSizeInstnceTest.LongestWordInSentenceTestWithParameterFail(LongestWordNSizeInstnceTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongestWordInSentenceTestWithParameterFail -->
+        <test-method status="PASS" signature="LongestWordInSentenceTestWithWrongParameter(java.lang.String)[pri:0, instance:com.rhythm.LongestWordNSizeInstnceTest@69d9c55]" name="LongestWordInSentenceTestWithWrongParameter" duration-ms="0" started-at="2019-10-19T06:18:47Z" finished-at="2019-10-19T06:18:47Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Sentence' is required by @Test on method LongestWordInSentenceTestWithWrongParameter but has not been marked @Optional or defined
+in C:\Java-Tutorials\LongestWordNSize\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Sentence' is required by @Test on method LongestWordInSentenceTestWithWrongParameter but has not been marked @Optional or defined
+in C:\Java-Tutorials\LongestWordNSize\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:355)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:447)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongestWordInSentenceTestWithWrongParameter -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.rhythm.LongestWordNSizeInstnceTest@69d9c55]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-10-19T06:18:47Z" finished-at="2019-10-19T06:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.rhythm.LongestWordNSizeInstnceTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
